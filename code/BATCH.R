@@ -6,7 +6,7 @@
 # In code/hate_crimes/02_synth_analysis.R, code/twitter/01twitter_synth.R, and
 # code/survey_experiment/02main_figure.R, look for flag "save_bw" that will save
 # grayscale versions of figures to a directory outside the replication archive
-# directory. Set save_bw <- FALSE to avoid errors or change directory that these
+# directory. To avoid errors, set save_bw <- FALSE or change directory that these
 # figs are saved to.
 
 dir.create("figs")
@@ -14,11 +14,11 @@ dir.create("tables")
 
 # Hate Crime Analysis -----------------------------------------------------
 
-# source("code/hate_crimes/01_merge.do") # run in Stata
+# "code/hate_crimes/01_merge.do" # run in Stata
 source("code/hate_crimes/02_synth_analysis.R")
 source("code/hate_crimes/03_synth_analysis_mane.R")
-# source("code/hate_crimes/04_DiD_placebo.do") # run in Stata
-# source("code/hate_crimes/05_crime_placebo_clean_merge.R") # requires downloading raw data, see README
+# "code/hate_crimes/04_DiD_placebo.do" # run in Stata
+# "code/hate_crimes/05_crime_placebo_clean_merge.R" # requires downloading raw data, see README
 source("code/hate_crimes/06_crime_placebo_analysis.R")
 
 
