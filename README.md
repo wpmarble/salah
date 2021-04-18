@@ -2,10 +2,12 @@
 
 This archive contains data and code necessary to replicate the results in "Can Celebrities Reduce Prejudice? The Effect of Mohamed Salah on Islamophobic Behaviors and Attitudes," by Ala' Alrababa'h, William Marble, Salma Mousa, and Alexandra Siegel.
 
-This replication archive is available both on the _American Political Science Review_ dataverse and on Github. To download this archive from Github, run the following command in Terminal:
+This replication archive is available both on the _American Political Science Review_ Dataverse and on Github. To download this archive from Github, run the following command in Terminal:
 ```
 git clone https://github.com/wpmarble/salah.git
 ```
+
+To download the archive from Dataverse, visit [https://doi.org/10.7910/DVN/2JKWNS](https://doi.org/10.7910/DVN/2JKWNS).
 
 Begin by downloading the whole replication archive from Dataverse or Github, unzipping it if necessary, and setting your working directory in R/Stata to the base folder in the replication archive.
 
