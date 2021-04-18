@@ -9,9 +9,9 @@ git clone https://github.com/wpmarble/salah.git
 
 To download the archive from Dataverse, visit [https://doi.org/10.7910/DVN/2JKWNS](https://doi.org/10.7910/DVN/2JKWNS).
 
-Begin by downloading the whole replication archive from Dataverse or Github, unzipping it if necessary, and setting your working directory in R/Stata to the base folder in the replication archive.
+Begin by downloading the whole replication archive from Dataverse or Github, unzipping it if necessary, and setting your working directory in R/Stata to the base folder in the replication archive. All paths in the scripts are relative to this base directory. 
 
-All paths in the scripts are relative to this base directory. All the code for reproducinig the results (including tables and figures) in the main text and appendix is in the `code` subfolder. Almost all of the code is in R, with the exception of two Stata do-files in the hate crime analysis section.
+The code for reproducinig the results (including tables and figures) in the main text and appendix is in the `code` folder. Almost all of the code is in R, with the exception of two Stata do-files in the hate crime analysis section.
 
 The code has 4 parts:
   1. hate crime analysis
