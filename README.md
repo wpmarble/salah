@@ -1,8 +1,13 @@
-# Replication Archive for "Can Celebrities Reduce Prejudice?" by Ala' Alrababa'h, William Marble, Salma Mousa, and Alexandra Siegel.
+# Replication Archive for "Can Celebrities Reduce Prejudice?"
 
-## Introduction
+This archive contains data and code necessary to replicate the results in "Can Celebrities Reduce Prejudice? The Effect of Mohamed Salah on Islamophobic Behaviors and Attitudes," by Ala' Alrababa'h, William Marble, Salma Mousa, and Alexandra Siegel. 
 
-Begin by downloading the whole replication archive from Dataverse, unzipping it, and setting your working directory in R/Stata to the base folder in the replication archive.
+This replication archive is available both on the _APSR_ dataverse and on Github. To download this archive from Github, run the following command in Terminal:
+```
+git clone https://github.com/wpmarble/salah.git
+```
+
+Begin by downloading the whole replication archive from Dataverse or Github, unzipping it if necessary, and setting your working directory in R/Stata to the base folder in the replication archive.
 
 All paths in the scripts are relative to this base directory. All the code for reproducinig the results (including tables and figures) in the main text and appendix is in the `code` subfolder. Almost all of the code is in R, with the exception of two Stata do-files in the hate crime analysis section.
 
@@ -14,10 +19,6 @@ The code has 4 parts:
 
 The rest of the README describes the code files included in each part as well as the necessary raw data in the `data` subdirectory. All other files in the `data` subdirectory are created by one of  the code files below. Additionally, all files in the `figs` and `tables` subdirectories are created by the code files below.
 
-This replication archive is available both on the _APSR_ dataverse and on Github. To download this archive from Github, run the following command in Terminal:
-```
-git clone https://github.com/wpmarble/salah.git
-```
 
 
 
