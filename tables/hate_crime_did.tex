@@ -1,0 +1,20 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lcccc} \hline
+ & (1) & (2) & (3) & (4) \\
+VARIABLES & hate\_crimes\_pc & hate\_crimes\_pc & hate\_crimes\_pc & hate\_crimes\_pc \\ \hline
+ &  &  &  &  \\
+treated & -0.296*** & -0.214*** & -0.288*** & -0.152* \\
+ & (0.0610) & (0.0488) & (0.0903) & (0.0805) \\
+ &  &  &  &  \\
+Observations & 969 & 969 & 969 & 969 \\
+R-squared & 0.896 & 0.932 & 0.913 & 0.942 \\
+Unit FE & 1 & 1 & 1 & 1 \\
+Month FE & 1 & 1 & 1 & 1 \\
+Unit-specific time trend & 0 & 1 & 0 & 1 \\
+ Weights & 0 & 0 & 1 & 1 \\ \hline
+\multicolumn{5}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{5}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+\end{document}

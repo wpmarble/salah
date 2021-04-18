@@ -1,0 +1,36 @@
+
+\begin{table}[H]
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{l c c c c}
+\hline
+ & PC Outcome & Muslims Common & Islam Compatible & Immigrant Impact \\
+\hline
+(Intercept)          & $0.08^{*}$    & $0.61^{***}$  & $0.21^{***}$  & $0.51^{***}$  \\
+                     & $(0.03)$      & $(0.02)$      & $(0.01)$      & $(0.02)$      \\
+Failure              & $0.02$        & $-0.01$       & $0.02$        & $-0.01$       \\
+                     & $(0.05)$      & $(0.02)$      & $(0.02)$      & $(0.02)$      \\
+Success              & $0.04$        & $0.01$        & $0.03$        & $-0.01$       \\
+                     & $(0.05)$      & $(0.02)$      & $(0.02)$      & $(0.02)$      \\
+Conservative         & $-0.38^{***}$ & $-0.14^{***}$ & $-0.12^{***}$ & $-0.15^{***}$ \\
+                     & $(0.06)$      & $(0.03)$      & $(0.02)$      & $(0.03)$      \\
+Failure:Conservative & $0.05$        & $0.01$        & $0.02$        & $0.02$        \\
+                     & $(0.08)$      & $(0.04)$      & $(0.03)$      & $(0.04)$      \\
+Success:Conservative & $-0.02$       & $-0.00$       & $0.00$        & $-0.01$       \\
+                     & $(0.08)$      & $(0.04)$      & $(0.03)$      & $(0.04)$      \\
+\hline
+R$^2$                & $0.03$        & $0.02$        & $0.02$        & $0.02$        \\
+Adj. R$^2$           & $0.03$        & $0.01$        & $0.02$        & $0.02$        \\
+Num. obs.            & $7490$        & $8025$        & $7738$        & $7537$        \\
+RMSE                 & $2.22$        & $1.10$        & $0.89$        & $1.11$        \\
+\hline
+\multicolumn{5}{l}{\tiny{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\end{footnotesize}
+\caption{Interacting the success/failure treatments with an indicator for conservative views. This indicator is coded as 
+       1 if the respondent identifies with the Conservative Party or the UK Independence Party. It is coded as 0 
+       if the respondent identifies with the Labour Party, Liberal Democrats, other parties, or none of these 
+       parties.}
+\label{tab:success_conservative}
+\end{center}
+\end{table}

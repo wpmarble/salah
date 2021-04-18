@@ -1,0 +1,43 @@
+
+\begin{table}[H]
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{l c c c c}
+\hline
+ & PC Outcome & Muslims Common & Islam Compatible & Immigrant Impact \\
+\hline
+(Intercept)                          & $-0.02$  & $0.56^{***}$ & $0.18^{***}$ & $0.48^{***}$ \\
+                                     & $(0.07)$ & $(0.03)$     & $(0.03)$     & $(0.03)$     \\
+Character - Failure                  & $-0.11$  & $-0.06$      & $-0.02$      & $-0.05$      \\
+                                     & $(0.11)$ & $(0.06)$     & $(0.04)$     & $(0.06)$     \\
+Character - Success                  & $-0.13$  & $-0.04$      & $-0.04$      & $-0.07$      \\
+                                     & $(0.11)$ & $(0.05)$     & $(0.04)$     & $(0.05)$     \\
+Religion - Failure                   & $0.19$   & $0.04$       & $0.09$       & $0.01$       \\
+                                     & $(0.12)$ & $(0.05)$     & $(0.05)$     & $(0.06)$     \\
+Religion - Success                   & $0.09$   & $0.01$       & $0.06$       & $0.02$       \\
+                                     & $(0.12)$ & $(0.06)$     & $(0.05)$     & $(0.06)$     \\
+Follow Liverpool                     & $-0.00$  & $0.02$       & $-0.00$      & $-0.02$      \\
+                                     & $(0.07)$ & $(0.04)$     & $(0.03)$     & $(0.04)$     \\
+Character - Failure:Follow Liverpool & $0.11$   & $0.05$       & $0.02$       & $0.06$       \\
+                                     & $(0.12)$ & $(0.06)$     & $(0.04)$     & $(0.06)$     \\
+Character - Success:Follow Liverpool & $0.15$   & $0.03$       & $0.06$       & $0.06$       \\
+                                     & $(0.12)$ & $(0.06)$     & $(0.04)$     & $(0.06)$     \\
+Religion - Failure:Follow Liverpool  & $-0.12$  & $-0.04$      & $-0.04$      & $-0.02$      \\
+                                     & $(0.13)$ & $(0.06)$     & $(0.05)$     & $(0.06)$     \\
+Religion - Success:Follow Liverpool  & $-0.02$  & $0.02$       & $-0.02$      & $-0.04$      \\
+                                     & $(0.13)$ & $(0.06)$     & $(0.05)$     & $(0.06)$     \\
+\hline
+R$^2$                                & $0.00$   & $0.00$       & $0.01$       & $0.00$       \\
+Adj. R$^2$                           & $0.00$   & $0.00$       & $0.00$       & $-0.00$      \\
+Num. obs.                            & $7513$   & $8057$       & $7768$       & $7569$       \\
+RMSE                                 & $2.25$   & $1.11$       & $0.90$       & $1.12$       \\
+\hline
+\multicolumn{5}{l}{\tiny{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\end{footnotesize}
+\caption{Interacting the treatments with an indicator for closely following Liverpool FC. People who follow 
+       Liverpool very closely (watch every match, read news almost daily) are coded as 1 and people who follow Liverpool 
+       less often are coded as 0.}
+\label{tab:ate_follow}
+\end{center}
+\end{table}
