@@ -1,4 +1,4 @@
-## Replication file for "Can Celebrities Reduce Prejudice" ##
+## Replication file for "Can Exposure to Celebrities Reduce Prejudice" ##
 # Create Figure 1 -- trends in Islamophobia. Data from YouGov.
 
 

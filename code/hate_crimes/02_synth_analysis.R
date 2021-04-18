@@ -1,4 +1,4 @@
-## Replication file for "Can Celebrities Reduce Prejudice" ##
+## Replication file for "Can Exposure to Celebrities Reduce Prejudice" ##
 
 # Implement the synthetic control method to see whether hate crimes in Liverpool
 # declined after Salah joined, relative to what we otherwise would have expected.

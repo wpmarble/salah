@@ -1,4 +1,4 @@
-# Replication Archive for "Can Celebrities Reduce Prejudice?"
+# Replication Archive for "Can Exposure to Celebrities Reduce Prejudice?"
 
 This archive contains data and code necessary to replicate the results in "Can Celebrities Reduce Prejudice? The Effect of Mohamed Salah on Islamophobic Behaviors and Attitudes," by Ala' Alrababa'h, William Marble, Salma Mousa, and Alexandra Siegel. 
 

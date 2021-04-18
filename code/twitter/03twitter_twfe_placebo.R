@@ -1,3 +1,5 @@
+## Replication file for "Can Exposure to Celebrities Reduce Prejudice" ##
+
 # placebo analysis for twitter data 
 # randomly sample one of the clubs to be "treated" at a randomly-chosen time,
 # then estimate the Diff in Diff model that's in the appendix and compare the

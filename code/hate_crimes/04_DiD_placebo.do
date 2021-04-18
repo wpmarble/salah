@@ -1,5 +1,5 @@
 /* 
-Replication file for "Can Celebrities Reduce Prejudice" 
+Replication file for "Can Exposure to Celebrities Reduce Prejudice" ##
 
 This file run a generalized diff-in-diff analysis of hate crimes in the UK, with
 the treated unit being Merseyside after July 2017 (inclusive). In the first part,

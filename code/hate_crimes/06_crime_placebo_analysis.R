@@ -1,4 +1,4 @@
-## Replication file for "Can Celebrities Reduce Prejudice" ##
+## Replication file for "Can Exposure to Celebrities Reduce Prejudice" ##
 
 # Implement placebo test using shoplifting and all crimes, using the same
 # matrix completion method used in the hate crime analysis. 

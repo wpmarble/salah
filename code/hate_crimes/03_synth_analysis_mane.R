@@ -1,4 +1,4 @@
-## Replication file for "Can Celebrities Reduce Prejudice" ##
+## Replication file for "Can Exposure to Celebrities Reduce Prejudice" ##
 
 # Analyze whether there is a "Mane effect" on hate crimes before Salah
 # joined Liverpool. He joined Liverpool in July 2016; truncate outcome
