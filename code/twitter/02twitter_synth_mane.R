@@ -1,4 +1,4 @@
-## Replication file for "Can Celebrities Reduce Prejudice" ##
+## Replication file for "Can Exposure to Celebrities Reduce Prejudice" ##
 
 # Implement the synthetic control method to see whether anti-Muslim tweets in
 # Liverpool declined after Mane joined, relative to what we otherwise would have
