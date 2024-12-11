@@ -30,7 +30,7 @@ The rest of the README describes the code files included in each part as well as
 
 The data we use here were collected using public information requests to individual police forces. We have provided the standardized data from the responses to those requests, which includes the monthly counts of hate crimes at the police force level.
 
-This replication archiive *does not* contain the raw datasets for other types of crimes (used to produce Figure 3) because they are very large. See comments inside `code/hate_crimes/05_crime_placebo_clean_merge.R` for straightforward instructions on how to download them for yourself.  We have, however, included the output of the cleaning file that uses them in the replication archive, so you can run the placebo crime analysis without downloading the raw data.
+This replication archive *does not* contain the raw datasets for other types of crimes (used to produce Figure 3) because they are very large. See comments inside `code/hate_crimes/05_crime_placebo_clean_merge.R` for straightforward instructions on how to download them for yourself.  We have, however, included the output of the cleaning file that uses them in the replication archive, so you can run the placebo crime analysis without downloading the raw data.
 
 
 ### Raw Data
