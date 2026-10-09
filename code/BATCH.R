@@ -9,6 +9,8 @@
 # directory. To avoid errors, set save_bw <- FALSE or change directory that these
 # figs are saved to.
 
+# UPDATED 2026-10-05 to run corrected figure 1 script.
+
 dir.create("figs")
 dir.create("tables")
 
@@ -49,4 +51,4 @@ source("code/survey_experiment/08balance_table.R")
 # Miscellaneous -----------------------------------------------------------
 
 source("code/misc/liverpool_echo.R")
-source("code/misc/yougov.R")
+source("code/misc/make_figure1.R") # Corrected fig 1 script, October 2026

@@ -17,7 +17,7 @@ The code has 4 parts:
   1. hate crime analysis
   2. twitter analysis
   3. survey experiment analysis
-  4. miscellaneous
+  4. miscellaneous [CORRECTED OCTOBER 2026, see below and `corrigendum.pdf`]
 
 The rest of the README describes the code files included in each part as well as the necessary raw data in the `data` subdirectory. All other files in the `data` subdirectory are created by one of  the code files below. Additionally, all files in the `figs` and `tables` subdirectories are created by the code files below.
 
@@ -129,12 +129,19 @@ The questionnaire for the survey experiment is provided as code/survey_experimen
 	- utility functions for conducting PCA
 
 
+
 ## Miscellaneous
 
 Two miscellaneous analyses: Figure 1, plotting trends in attitudes towards Islam over time; and Figure A-7 in the appendix, showing media coverage of Salah and Mané.
 
+**UPDATE OCTOBER 2026**. _We became aware of an error in Figure 1 of the published paper and the original replication code. The current version of the replication files correct the error._
+
+_Figure 1 displays the share of respondents to surveys by YouGov-Cambridge who agreed that there is a fundamental clash between Islam and British values. We include data for 20 waves between January 2015 and June 2018. In the published version, we mistakenly assigned the survey dates to the 20 waves in reverse order. This occurred when we converted an SPSS file we received from YouGov to a CSV file that we used for the data analysis. Since the dates are incorrect, the published figure shows an incorrect trend and the paragraph that describes it is also incorrect._
+
+_The corrected version of Figure 1 is deposited here as `figs/Fig1_corrected.pdf`._
+
 ### Raw Data
-- `data/yougov.csv`
+- `data/data-from-yougov.sav`
 - `data/liverpool_echo.rds`
 
 ### Code Files
@@ -142,8 +149,17 @@ Two miscellaneous analyses: Figure 1, plotting trends in attitudes towards Islam
 - `data/misc/liverpool_echo.R`
 	- reads in `liverpool_echo.rds` and creates Figure A-7
 
-- `data/misc/yougov.R`
-	- reads in `yougov.csv` and creates Figure 1
+- `make_figure1.R`
+	- reads in `data-from-yougov.sav` and creates **corrected** version of Figure 1
+
+### Deleted Files
+
+In our correction on 2026-10-05, we removed two files that were part of the original replication package:
+
+- `yougov.csv`: this is a CSV file that had incorrect dates assigned to survey waves
+- `yougov.R`: a script that created the published version of Figure 1. `make_figure1.R` replaces this script.
+
+
 
 
 ## Software Version Information
